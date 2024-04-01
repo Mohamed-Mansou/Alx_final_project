@@ -24,3 +24,13 @@ function getTodoHtml(todo, index) {
         </li>
     `; 
 }
+
+function showTodos() {
+    if (todosJson.length == 0) {
+        todosHtml.innerHTML = '';
+        emptyImage.style.display = 'block';
+    } else {
+        todosHtml.innerHTML = todosJson.map(getTodoHtml).join('');
+        emptyImage.style.display = 'none';
+    }
+}
