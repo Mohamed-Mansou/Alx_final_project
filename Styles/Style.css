@@ -9,7 +9,7 @@ body{
     align-items:center;
     justify-content: center;
     height: 100vh;
-    /* background-image: url(../Images/wallpaper.jpg); */
+    background-image: url(../Images/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@ body{
     -o-border-radius: 10px;
     padding: 30px;
     background: transparent;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(15px);
 }
 .container h1{
     text-align: center;
