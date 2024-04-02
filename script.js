@@ -41,3 +41,11 @@ function addTodo(todo)  {
     localStorage.setItem("todos", JSON.stringify(todosJson));
     showTodos();
 }
+
+input.addEventListener("keyup", e => {
+    let todo = input.value.trim();
+    if (!todo || e.key != "Enter") {
+        return;
+    }
+    addTodo(todo);
+});
