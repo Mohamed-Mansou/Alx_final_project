@@ -76,3 +76,17 @@ function remove(todo) {
     showTodos();
     localStorage.setItem("todos", JSON.stringify(todosJson));
 }
+
+filters.forEach(function (el) {
+    el.addEventListener("click", (e) => {
+        if (el.classList.contains('active')) {
+            el.classList.remove('active');
+            filter = '';
+        } else {
+        filters.forEach(tag => tag.classList.remove('active'));
+        el.classList.add('active');
+        filter = e.target.dataset.filter;
+    }
+    showTodos();
+    });
+});
