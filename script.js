@@ -34,3 +34,10 @@ function showTodos() {
         emptyImage.style.display = 'none';
     }
 }
+
+function addTodo(todo)  {
+    input.value = "";
+    todosJson.unshift({ name: todo, status: "pending" });
+    localStorage.setItem("todos", JSON.stringify(todosJson));
+    showTodos();
+}
