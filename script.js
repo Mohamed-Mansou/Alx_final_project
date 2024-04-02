@@ -69,3 +69,10 @@ function updateStatus(todo) {
     }
     localStorage.setItem("todos", JSON.stringify(todosJson));
 }
+
+function remove(todo) {
+    const index = todo.dataset.index;
+    todosJson.splice(index, 1);
+    showTodos();
+    localStorage.setItem("todos", JSON.stringify(todosJson));
+}
