@@ -90,3 +90,9 @@ filters.forEach(function (el) {
     showTodos();
     });
 });
+
+deleteAllButton.addEventListener("click", () => {
+    todosJson = [];
+    localStorage.setItem("todos", JSON.stringify(todosJson));
+    showTodos();
+});
