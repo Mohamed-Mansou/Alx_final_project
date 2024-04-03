@@ -150,5 +150,22 @@ input:checked + span {
     background-color: #e6b7eca1
 }
 
+.delete-all{
+    display: flex;
+    color: #eee;
+    padding: 7px 15px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+.delete-all:hover{
+    border-radius: 15px;
+    -webkit-border-radius: 10px;
+    background-color: #e6b7eca1;
+}
 
 
