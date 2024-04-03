@@ -126,6 +126,24 @@ input:checked + span {
 .filters{
     display: flex;
     justify-content: space-between;
-    color: #eee;
     margin-bottom: 25px;
 }
+
+.filter{
+    color: #eee;
+    padding: 5px 15px;
+    border: 2px solid #e6b7eca1;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    transform: all 0.2s ease;
+    -webkit-transform: all 0.2s ease;
+    -moz-transform: all 0.2s ease;
+    -ms-transform: all 0.2s ease;
+    -o-transform: all 0.2s ease;
+    cursor: pointer;
+}
+
+
