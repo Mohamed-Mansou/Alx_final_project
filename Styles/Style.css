@@ -138,12 +138,17 @@ input:checked + span {
     -moz-border-radius: 100px;
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
-    transform: all 0.2s ease;
-    -webkit-transform: all 0.2s ease;
-    -moz-transform: all 0.2s ease;
-    -ms-transform: all 0.2s ease;
-    -o-transform: all 0.2s ease;
+    transition: all 0.5s ease;
     cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
 }
+
+.filter:hover{
+    background-color: #e6b7eca1
+}
+
 
 
