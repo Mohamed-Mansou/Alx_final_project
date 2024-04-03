@@ -111,26 +111,14 @@ body{
     cursor: pointer;
 }
 
-span::before{
-    content:"";
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    margin-left:-30px;
-    border:2px solid #e6b7eca1;
-    border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    -ms-border-radius: 100px;
-    -o-border-radius: 100px;
-}
-
-input[type='checkbox'] {
-    visibility: hidden;
-}
-
 input:checked + span {
     text-decoration: line-through
 }
 
-
+.todo .delete-btn{
+    cursor: pointer;
+    color: #eee;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+}
