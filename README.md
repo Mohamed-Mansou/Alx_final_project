@@ -2,7 +2,8 @@ The final project for alx graduation
 To-Do List Project
 This project is a simple to-do list application built with HTML, CSS, and JavaScript. Users can add new tasks, mark tasks as complete, and remove tasks from the list.
 
-You can visit the live demo for project from here:
+You can visit the live demo for project from here:https://mohamed-mansou.github.io/Alx_final_project/
+
 Functionality
 -Add Tasks: Enter a new task in the input field and click the "Add" button. The task will be added to the list.
 -Mark Tasks Complete: Click the checkbox next to a task to mark it as complete. The completed task will be styled differently.
