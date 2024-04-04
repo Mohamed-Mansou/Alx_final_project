@@ -70,7 +70,21 @@ body{
     margin-right: 3px;
 }
 
+.remember-forget label{
+    padding: 5px;
+}
+
 .remember-forget a{
     text-decoration: none;
     color: #fff;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    padding: 5px;
+}
+.remember-forget a:hover{
+    background-color: #e6b7eca1;
+    border-radius: 5px;
 }
