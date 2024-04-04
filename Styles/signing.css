@@ -16,7 +16,7 @@ body{
 .container{
     width: 400px;
     background:transparent;
-    backdrop-filter:blur(px);
+    backdrop-filter:blur(10px);
     border: 2px solid #e6b7eca1;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -54,3 +54,14 @@ body{
     border: 2px solid #e6b7eca1;
     padding: 20px;
 }
+
+.input-box input::placeholder{
+    color: #fff;
+}
+
+.remember-forget{
+    display: flex;
+    justify-content: space-between;
+    margin:-15px 0 15
+}
+
