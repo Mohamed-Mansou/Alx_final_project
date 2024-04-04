@@ -19,6 +19,7 @@
 </head>
 <body>
     <header>
+        <h1>Taskify</h1>
         <nav>
             <ul class="links">
                 <li><a href="index.html">Home</a></li>
@@ -27,23 +28,25 @@
             </ul>
         </nav>
     </header>
-    <div class="container">
-        <h1>Todo List</h1>
-        <div class="input-container">
-        <input class="todo-input" placeholder="Add a new task">
-        <button class="add-button">
-            <i class="fa fa-plus-circle"></i>
-        </button>
-    </div>
-    <div class="filters">
-        <div class="filter" data-filter="completed">Complete</div>
-        <div class="filter" data-filter="pending">Incomplete</div>
-        <div class="delete-all">Delete All</div>
-    </div>
-    <div class="todos-container">
-        <ul class="todos"></ul>
-        <img class="empty-image" src="./empty.svg">
-    </div>
+    <div class="todo-container">
+        <div class="container">
+            <h1>Todo List</h1>
+            <div class="input-container">
+            <input class="todo-input" placeholder="Add a new task">
+            <button class="add-button">
+                <i class="fa fa-plus-circle"></i>
+            </button>
+        </div>
+        <div class="filters">
+            <div class="filter" data-filter="completed">Complete</div>
+            <div class="filter" data-filter="pending">Incomplete</div>
+            <div class="delete-all">Delete All</div>
+        </div>
+        <div class="todos-container">
+            <ul class="todos"></ul>
+            <img class="empty-image" src="./empty.svg">
+        </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
