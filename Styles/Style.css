@@ -57,7 +57,11 @@ header{
     -o-border-radius: 10px;
 }
 
-
+.todo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .container{
     width: 400px;
