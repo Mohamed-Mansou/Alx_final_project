@@ -12,6 +12,7 @@ body{
     background: url(../Images/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     min-height:100vb ;
 }
 
@@ -25,13 +26,13 @@ body{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    padding: 40px;
+    padding: 30px;
     color: #eee;
 }
 
 .container h1{
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .container .input-box{
@@ -54,7 +55,7 @@ body{
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
     border: 2px solid #e6b7eca1;
-    padding: 20px;
+    padding: 15px;
 }
 
 .input-box input::placeholder{
@@ -89,6 +90,17 @@ body{
 .remember-forget a:hover{
     background-color: #e6b7eca1;
     border-radius: 5px;
+}
+
+.member{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.member a{
+    color: #eee;
+    text-decoration: none;
 }
 
 .btn{
